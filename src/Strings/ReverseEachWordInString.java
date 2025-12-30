@@ -16,8 +16,8 @@ public class ReverseEachWordInString {
             if(c!=' ') sb.append(c);
             else{
                 sb.reverse();
-                result.append(sb);
-                result.append(c);
+                result.append(sb+" ");
+               // result.append(c);
                 sb=new StringBuilder();
             }
 
@@ -28,7 +28,7 @@ public class ReverseEachWordInString {
         sb=new StringBuilder();
 
 
-        System.out.println("before string: -"+ s);
+        System.out.println("before string:- "+ s);
         System.out.println("after String:- "+ result);
     }
 }
